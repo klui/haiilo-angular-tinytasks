@@ -1,11 +1,11 @@
 import {
   Component,
-  VERSION,
   ChangeDetectionStrategy,
   OnInit,
   Inject,
 } from '@angular/core';
 import { Observable } from 'rxjs';
+import { TasksModule } from './tasks/tasks.module';
 
 @Component({
   selector: 'app-root',
